@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<storageConnectString>",
+    "AzureWebJobsDashboard": "",
+    "StreamBatchesBlobContainerName": "qillionbatches",
+    "QiStreamsPerWorker": 10000,
+    "QiUrl": "https://historianmain.osipi.com/",
+    "QiResource": "https://pihomemain.onmicrosoft.com/ocsapi",
+    "QiAccountId": "<tenantGuid>",
+    "QiClientId": "<applicationId>",
+    "QiClientSecret": "<applicationKey>",
+    "QiNamespace": "<namespaceId>",
+    "QiStreamFilter": "*",
+    "GoogleProjectId": "<googleProjectId>",
+    "GoogleTopicId": "<googleTopicShortId>",
+    "QillionTriggerBus": "<serviceBusConnectString>",
+    "QillionStorage": "<storageConnectString>"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  },
+  "ConnectionStrings": {
+  }
+}
